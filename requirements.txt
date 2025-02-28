@@ -1,0 +1,5 @@
+easydict
+feedparser
+pytz
+python-dateutil
+openai
