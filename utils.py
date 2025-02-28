@@ -104,7 +104,7 @@ def generate_table(papers: List[Dict[str, str]], ignore_keys: List[str] = []) ->
                 formatted_paper[key] = "<details><summary>Show</summary><p>{0}</p></details>".format(paper[key])
             elif key == "Summary":
                 # add show/hide button for summary
-                formatted_paper[key] = "<details><summary>Show</summary><p>{0}</p></details>".format(paper[key])
+                formatted_paper[key] = paper[key]
             elif key == "Authors":
                 # NOTE only use the first author
                 formatted_paper[key] = paper[key][0] + " et al."
