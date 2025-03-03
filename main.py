@@ -68,15 +68,15 @@ for _ in range(3):  # try 3 times
         break
     time.sleep(60 * 30)
 
-print("Total papers: ", len(paper_list))
-print("paper 0: ", paper_list[0])
-
 if len(paper_list) == 0: # failed to get papers
     print("Failed to get papers!")
     f_rm.close()
     f_is.close()
     restore_files()
     sys.exit("Failed to get papers!")
+
+print("Total papers: ", len(paper_list))
+print("paper 0: ", paper_list[0])
 
 for paper in paper_list:
     for _ in range(3):  # try 3 times
