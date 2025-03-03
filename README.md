@@ -1,5 +1,6 @@
 # Daily Papers
-The project automatically fetches the latest papers from arXiv based on keywords.
+
+The project automatically fetches the latest papers from arXiv based on keywords and summarizes them using LLM.
 
 The subheadings in the README file represent the search keywords.
 
