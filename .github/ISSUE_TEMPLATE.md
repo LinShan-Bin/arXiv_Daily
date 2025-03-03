@@ -2,7 +2,7 @@
 title: Latest 15 Papers - March 01, 2025
 labels: documentation
 ---
-**Please check the [Github](https://github.com/LinShan-Bin/Daily_arXiv) page for a better reading experience and more papers.**
+**Please check the [Github](https://github.com/LinShan-Bin/arXiv_Daily) page for a better reading experience and more papers.**
 
 | **Title** | **Date** | **Comment** |
 | --- | --- | --- |
